@@ -1,0 +1,131 @@
+                          A JOB READY BOOTCAMP IN C++,DSA And IOT
+                                     ASSIGNMENT-1
+                            Input and Output in C Language
+
+1. WAP To Print Hello Students on screen.
+
+#include<stdio.h>
+int main()
+{
+    printf("Hello Students");
+    return 0;
+}
+
+2. WAP To Print Hello in First Line and Students in Second Line.
+
+#include<stdio.h>
+int main()
+{
+    printf("Hello\nStudents");
+    return 0;
+}
+
+3. WAP To Print "MySirG" On Screen.
+
+#include<stdio.h>
+int main()
+{
+    printf("\"MySirG\"");
+    return 0;
+}
+
+4. WAP To Print Area of Circle With Inputed Value Of Radius.
+
+#include<stdio.h>
+int main()
+{
+    int R;
+    float A;
+    printf("Enter Radius of Circle R=");
+    scanf("%d",&R);
+
+    A=3.14*R*R;
+    printf("\"Area of circle is %f having the radius %d\"",A,R);
+    return 0;
+
+}
+
+5. WAP To Calculate the length of String using printf function.
+
+#include<stdio.h>
+int main()
+{
+   int x=printf("Nemit Jindal");
+         printf("%d",x);
+         return 0;
+}
+
+6. WAP To Print Your Name in DOuble Quotes
+
+#include<stdio.h>
+int main()
+{
+    printf("\"Hello, Nemit Jindal\"");
+    return 0;
+}
+
+7. WAP To Print "%d" on the Screen
+
+#include<stdio.h>
+int main()
+{
+    printf("\"%%d\"");
+    return 0;
+}
+
+8. WAP To Print "\n" on The Screen
+
+#include<stdio.h>'
+int main()
+{
+    printf("\"\\n\"");
+    return 0;
+}
+
+9. WAP To Print "\\" On The Screen
+
+#include<stdio.h>
+int main()
+{
+    printf("\"\\\\\"");
+    return 0;
+}
+
+10. WAP To Convert Date Format
+
+#include<stdio.h>
+int main()
+{
+    int DD,MM,YYYY;
+    printf("\"DD/MM/YYYY\":");
+    scanf("%d/%d/%d",&DD,&MM,&YYYY);
+
+    printf("\"Day - %d, Month - %d,Year - %d \"",DD,MM,YYYY);
+    return 0;
+}
+
+11. WAP To Convert The Time Format
+
+#include<stdio.h>
+int main()
+{
+    int HH,MM;
+    printf("\"HH:MM\":");
+    scanf("%d:%d",&HH,&MM);
+
+    printf("\"%d Hour and %d Minutes\"",HH,MM);
+    return 0;
+}
+
+12. Find Output Of Below Code:
+
+#include<stdio.h>
+int main()
+{
+    int x=printf("ineuron");
+    printf("%d",x);
+    return 0;
+}
+Answer: In Question Header File is not Written so The Output Is ERROR.
+        But With Header File(#include<stdio.h) Output Is ineuron7.
+
